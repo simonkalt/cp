@@ -1,6 +1,7 @@
 import React from 'react';
 import "./App.css";
 
+import Banner from "./pages/banner";
 import Home from "./pages/home";
 import Clients from "./pages/clients";
 import Psychics from "./pages/psychics";
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/Clients" component={Clients}/>
         <Route exact path="/Psychics" component={Psychics}/>
         <Route exact path="/Psychics/:PsychicID" component={Psychic}/>
+        <Route exact path="/Banner" component={Banner}/>
         <Route component={Error}/>
       </Switch>
 

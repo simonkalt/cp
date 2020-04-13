@@ -1,0 +1,51 @@
+@import "https://blog-cdn.californiapsychics.com/blog/wp-content/themes/wp-zefir/css/bootstrap.min.css?ver=3.3.5";
+@import "https://blog-cdn.californiapsychics.com/blog/lp/assets/css/legacy-styles.css?ver=0.9.23&amp;build=1.0.85.85";
+
+
+.smallbanner {
+    background-image: url("https://blog-cdn.californiapsychics.com/blog/lp/assets/images/landing-page-banner-486-350.jpg?build=1.0.85.85"); 
+    background-position: "left top;"    
+}
+.bigbanner {
+    background-image: url("https://blog-cdn.californiapsychics.com/blog/lp/assets/images/landing-page-banner-980x350.jpg?build=1.0.85.85"); 
+    background-position: "left top;"    
+}
+.perminute {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    font-size: 24px;
+}
+.just {
+    font-size: 3.2rem;
+}
+.dollarnumber {
+    font-size: 4.2rem;
+}
+.standardpara {
+    font-size: 16px;
+}
+.banner-content-h1 {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    font-size: 32px;
+}
+.banner-contant-span-1 {
+    font-size: 62px;
+}
+.banner-contant-span-2 {
+    font-size: 72px; 
+    vertical-align: -10px;
+}
+.banner-contant-span-3 {
+    font-size: 120px; 
+    vertical-align: -25px;
+}
+.a-q {
+    padding: 10px 38px; 
+    font-size: 34px;    
+}
+.banner-content-h2 {
+    margin-top: -2.6rem; 
+    margin-bottom: 1.6rem;
+}
+

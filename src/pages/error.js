@@ -1,6 +1,5 @@
 import React from 'react'
 
-import img_error from '../images/error.jpg';
 import Hero from "../components/hero";
 import Banner from '../components/banner';
 import {Link} from 'react-router-dom';

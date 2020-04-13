@@ -1,0 +1,62 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+
+.banners > .container {margin-top: 20px;}
+.container-fluid{max-width:1280px;padding-right:0;padding-left:0;margin-right:auto;margin-left:auto;}
+#header_wrap {width:100%;position: fixed;left: 0;top: 0;z-index: 1010;background-color:#fff;}
+#header_wrap .container-fluid{position:relative;max-width:1280px;}
+#header_wrap div{height:100px;max-width:100%;line-height:100px;}
+#header_wrap a.phone{font-family:Open Sans, Helvetica, Arial, sans-serif;font-size:24px;line-height:100px;color:#f38430;}
+#header_wrap a.phone:hover{color:#f38430;text-decoration:none;cursor:default;}
+#divVideo img{width:100%;}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-weight: 400;}
+body{padding-top: 90px !important;}
+body.single-landingpage .content p{color:#777777; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size:18px;font-weight: 400;}
+body.single-landingpage .content ul li, body.single-landingpage .content p strong{color:#333 !important;}
+body.single-landingpage .dek ul.mobile > li a.btn {font-size:20px;}
+.footerPkg{background: url(../images/footericons.png) 0 0 no-repeat;background-size:360px 360px;}
+.facebook{display:inline-block;position:relative;width:30px;height:25px;margin:0 3px;background-position:2px 1px;background-size:600%;}
+.twitter{display:inline-block;position:relative;width:30px;height:25px;margin:0 2px;background-position:-28px 1px;background-size:600%;}
+.google{display:inline-block;position:relative;width:30px;height:25px;margin:0 3px;background-position:-56px 1px;background-size:600%;}
+.youtube{display:inline-block;position:relative;width:30px;height:25px;margin:0 3px;background-position:-97px 0;background-size:640%;}
+.instagram{display:inline-block;position:relative;width:30px;height:25px;margin:0 3px;background-position:-120px 1px;background-size:600%;}
+.apple{display:inline-block;position:relative;width:135px;height:45px;margin:0 5px 0 0;background-position:0 -100px;background-size:268%;}
+.android{display:inline-block;position:relative;width:150px;height:45px;margin:0 0 0 5px;background-position:-180px -100px;background-size:240%;}
+#lpFooter {width:100%;padding:30px 0 25px 0;background-color:#eee;text-align:center;}
+#lpFooter .social {width:100%;padding:15px 0 15px 0;}
+#lpFooter .social ul{list-style-type:none;margin:0 0 0 0;padding:5px 0 0 0;white-space:nowrap;}
+#lpFooter .social ul li{display:inline;margin:0;padding:0;}
+#lpFooter .copyRt{padding:0 5px 0 5px;}
+#lpFooter .copyRt span{display:block;white-space:nowrap;}
+#lpFooter .copyRt span a{color:#777;}
+
+.size-full{width:100%;}
+
+@media only screen and (max-width:525px) {
+  .single-container{padding:0 10px 0 10px;margin:0 auto;}
+  #header_wrap div{padding-top:3px;height:50px;width:100% !important;display:block;line-height:50px;text-align:center;background-color:#fff;}
+	#header_wrap a.phone{line-height:27px;}
+  .single-title-wrap{padding-top:30px;}
+  .btn-Call-Now2{font-size:20px !important;}
+}                                                                                    

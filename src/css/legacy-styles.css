@@ -1,0 +1,275 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  background: #fefefe;
+  color: #777777;
+  padding-top: 163px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#cp-account {
+	height: 35px;
+	overflow: hidden;
+	float: right;
+}
+#single-wrap { 
+	padding: 30px 0; 
+}
+
+.content h2, .content .h2, 
+.content h3, .content .h3, 
+.content h4, .content .h4, 
+.content h5, .content .h5, 
+.content h6, .content .h6 {
+    margin-top: 0px;
+
+    margin-bottom: 15px;
+  	font-weight: 600;
+}
+body.post-type-archive-landingpage,
+body.tax-landingpage_category,
+body.single-landingpage {
+    background: #fff !important;
+}
+body.single-landingpage {
+	padding-top: 122px;
+}
+body.single-landingpage #single-wrap {
+	padding: 0 0 30px 0;
+}
+
+body.single-landingpage .container.wm740 {
+	max-width: 740px;
+}
+body.single-landingpage .container.wm980 {
+	max-width: 980px;
+}
+
+body.single-landingpage .single-container {
+	background: transparent;
+	border-top: none !important;
+	margin-bottom: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none);
+	box-shadow: none;
+}
+
+body.single-landingpage .banners {
+	width: 100%;
+	/* background: url(../images/landing-page-banners-pattern.jpg) repeat; */
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+body.single-landingpage .banners .banners-container-col {
+	padding-left: 0;
+	padding-right: 0;
+}
+body.single-landingpage .banners .banner.mobile {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    padding: 0;
+    text-align: right;
+    overflow: hidden;
+}
+body.single-landingpage .banners .banner.desktop {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    max-width: 980px;
+    height: 350px;
+    margin: auto;
+    padding: 0;
+    text-align: right;
+    overflow: hidden;
+}
+body.single-landingpage .banners .banner .banner-content {
+    margin: 18px 36px;
+    text-align: right;
+    color: #fff;
+    overflow: hidden;
+}
+body.single-landingpage .banners .banner.mobile .banner-content {
+    margin: 18px 24px;
+}
+body.single-landingpage .banners .banner .banner-content a.btn {
+    background: #f38430;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 38px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+body.single-landingpage .banners .banner.mobile .banner-content a.btn {
+    width: auto;
+    padding: 0.8rem 1.8rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+body.single-landingpage .banners .banner.desktop .banner-content a.btn {
+    
+}
+
+body.single-landingpage .dek {
+	background: #fdf8e4;
+}
+body.single-landingpage .dek .single-container {
+	text-align: center;
+}
+body.single-landingpage .dek ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+body.single-landingpage .dek ul > li {
+    padding: 1rem;
+    display: inline-block;
+}
+body.single-landingpage .dek ul.mobile > li {
+    padding: 1rem;
+    display: block;
+}
+body.single-landingpage .dek ul > li a.btn {
+    background: #d05332;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    text-decoration: none;
+    overflow: hidden;
+}
+body.single-landingpage .dek ul.mobile > li a.btn {
+    width: 100%;
+    display: block;
+    padding: 1.6rem;
+}
+body.single-landingpage .dek ul.desktop > li a.btn {
+    width: 193px;
+    height: 98px;
+}
+body.single-landingpage .dek ul > li:nth-child(3n+1) a.btn {
+    background: #d05332;
+}
+body.single-landingpage .dek ul > li:nth-child(3n+2) a.btn {
+    background: #335f86;
+}
+body.single-landingpage .dek ul > li:nth-child(3n+0) a.btn {
+    background: #86a644;
+}
+body.single-landingpage h1 {
+	font-size: 2.8rem;
+}
+body.single-landingpage h2 {
+	font-size: 2.8rem;
+}
+body.single-landingpage .banner h2 {
+	font-size: 32px;
+}
+body.single-landingpage .banner.mobile h2 {
+	font-size: 24px;
+}
+
+body.single-landingpage .banner h1, 
+body.single-landingpage .banner h2, 
+body.single-landingpage .banner h3, 
+body.single-landingpage .banner h4 {
+	color: #fff;
+	font-weight: 600;
+	line-height: 1;
+}
+body.single-landingpage .dek h1, 
+body.single-landingpage .dek h2, 
+body.single-landingpage .dek h3, 
+body.single-landingpage .dek h4 {
+	color: #6289b1;
+	text-align: center;
+}
+body.single-landingpage #single-wrap h1, 
+body.single-landingpage #single-wrap h2, 
+body.single-landingpage #single-wrap h3, 
+body.single-landingpage #single-wrap h4 {
+	color: #6289b1;
+	text-align: center;
+}
+body.single-landingpage .content {
+    color: rgb(51, 51, 51);
+}
+body.single-landingpage .content ul {
+    margin: 1.4rem 0 3.2rem 0;
+    padding-left: 0;
+    list-style: none;
+}
+    body.single-landingpage .content ul > li {
+        background: url(/blog/wp-content/themes/wp-zefir-cp/img/lp/landing-page-item-bullet.png);
+        background-repeat: no-repeat;
+        background-position: 0 2px;
+        padding-left: 3.6rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 2.2rem;
+        line-height: 1.2;
+    }
+body.single-landingpage .content a.btn {
+    width: 270px;
+    background: #f38430;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+body.single-landingpage .banner p {
+	margin: 0 0 1.6rem 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body.single-landingpage .content p {
+	margin: 0 0 1.5rem 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+@media (max-width: 992px) {
+ 
+	body {
+	  padding-top: 0px;
+	}
+	body.single-landingpage {
+		padding-top: 0px;
+	}
+}
+@media screen and (max-width: 47.9375em){
+	  a#footer-view-full-site-link {
+            font-size: 12.76px;
+            color: #535353;
+            font-weight: bold;
+            margin-top: 20px;
+            padding-right: 20px;
+            text-decoration: underline!important;
+            margin-bottom: 1px;
+        }
+}

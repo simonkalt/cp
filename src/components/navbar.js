@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import logo from "../images/cp_logo.png";
-import {faAlignRight, FaAlignRight} from 'react-icons/fa';
+import {FaAlignRight} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import "../App.css"
 
 
 export default class navbar extends Component {
@@ -29,6 +30,9 @@ export default class navbar extends Component {
                     </li>
                     <li>
                         <Link to="/psychics">Psychics</Link>
+                    </li>
+                    <li>
+                        <Link to="/banner">Banner</Link>
                     </li>
                 </ul>
             </div>

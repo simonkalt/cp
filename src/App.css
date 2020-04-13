@@ -169,8 +169,8 @@ h6 {
   min-height: 60vh;
 }
 /* End of Hero */
-/* Banner */
-.banner {
+/* banner-core */
+.banner-core {
   display: inline-block;
   background: rgba(0, 0, 0, 0.5);
   color: var(--mainWhite);
@@ -179,36 +179,36 @@ h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
-.banner h1 {
+.banner-core h1 {
   font-size: 2.5rem;
 }
-.banner div {
+.banner-core div {
   width: 10rem;
   height: 5px;
   background: var(--primaryColor);
   margin: 1.7rem auto;
 }
-.banner p {
+.banner-core p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 576px) {
-  .banner {
+  .banner-core {
     padding: 2rem 3rem;
   }
-  .banner h1 {
+  .banner-core h1 {
     font-size: 3rem;
   }
 }
 @media screen and (min-width: 992px) {
-  .banner {
+  .banner-core {
     padding: 2rem 6rem;
   }
-  .banner h1 {
+  .banner-core h1 {
     font-size: 4rem;
   }
 }
-/* End of Banner */
+/* End of banner-core */
 /* Title */
 .section-title {
   text-align: center;
@@ -511,3 +511,29 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+#psychics {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+  font-size: small;
+}
+
+#psychics td, #psychics th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#psychics tr:nth-child(even){background-color: #f2f2f2;}
+
+#psychics tr:hover {background-color: #ddd;}
+
+#psychics th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
